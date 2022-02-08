@@ -1,0 +1,11 @@
+<% platos.forEach((plato)=> { %>
+
+  <a href="/detalle/<%- plato.id %>">
+    <h4><%- plato.name %> </h4>
+    <p class="ps-text-grey">
+      <%- plato.description %>  <%- plato.price %> 
+    </p>
+  </a>
+  <br />
+
+<% }) %>
